@@ -92,23 +92,16 @@ public class TV {
 		if(this.volumen<=7 || this.volumen>=0) {
 		this.volumen++;
 		}
-		else {
-			return;
+		
 		}
-		}
-		else {return;}
+	
 	}
 	public void volumenDown() {
 		if(this.estado=true) {
 		if(this.volumen<=7 || this.volumen>=0) {
 		this.volumen--;
 	}
-		else {
-			return;
 		}
-		}
-		else {return;}
-
 }
 	public static void setNumTV (int nut) {
 		nut=numTV;
