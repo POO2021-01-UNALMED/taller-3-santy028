@@ -89,7 +89,7 @@ public class TV {
 	}
 	public void volumenUp() {
 		if(this.estado=true) {
-		if(this.volumen<=7 || this.canal>=0) {
+		if(this.volumen<=7 || this.volumen>=0) {
 		this.volumen++;
 		}
 		else {
@@ -100,7 +100,7 @@ public class TV {
 	}
 	public void volumenDown() {
 		if(this.estado=true) {
-		if(this.volumen<=7 || this.canal>=0) {
+		if(this.volumen<=7 || this.volumen>=0) {
 		this.volumen--;
 	}
 		else {
