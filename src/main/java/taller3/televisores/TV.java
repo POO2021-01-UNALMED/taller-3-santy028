@@ -72,37 +72,48 @@ public class TV {
 		return this.estado;
 	}
 	public void canalUp() {
+		if(estado=true) {
 		if(this.canal<=120 || this.canal>=1) {
          this.canal++;
 		}
 		else {
 			return;
 		}
-		
+		}
+		else {return;}
 	}
 	public void canalDown() {
+		if(estado=true) {
 		if(this.canal<=120 || this.canal>=1) {
 		this.canal--;
 		}
 		else {
 			return;
 		}
+		}
+		else {return;}
 	}
 	public void volumenUp() {
+		if(estado=true) {
 		if(this.volumen<=7 || this.canal>=0) {
 		this.volumen++;
 		}
 		else {
 			return;
 		}
+		}
+		else {return;}
 	}
 	public void volumenDown() {
+		if(estado=true) {
 		if(this.volumen<=7 || this.canal>=0) {
 		this.volumen--;
 	}
 		else {
 			return;
 		}
+		}
+		else {return;}
 	
 	
 	
