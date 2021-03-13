@@ -31,11 +31,12 @@ public class Control {
 		this.tv.turnOff();
 	}
 	
+	public void canalUp() {
+    this.tv.canalUp();
+    }
 
 
-public void canalUp() {
-this.tv.canalUp();
-}
+
 public void canalDown() {
 	this.tv.canalDown();
 }
