@@ -105,7 +105,7 @@ public class TV {
 		}
 }
 	public static void setNumTV (int nut) {
-		nut=numTV;
+		nut=TV.numTV;
 	}
 	public static int getNumTV() {
 		return numTV;
