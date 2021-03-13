@@ -48,11 +48,8 @@ public class TV {
 		return canal;
 	}
 	public void setVolumen (int volumen) {
-		if(this.estado=true) {
-			if(this.volumen<=7 || this.volumen>=0) {
+		
 		this.volumen=volumen;
-	}
-		}
 	}
 	public int getVolumen() {
 		return volumen;
@@ -93,18 +90,18 @@ public class TV {
 	}
 	public void volumenUp() {
 		if(this.estado=true) {
-		if(this.volumen<=7 || this.volumen>=0) {
-		this.volumen++;
+		if(this.volumen+1>7 || this.volumen+1<0) {
+		return;
 		}
-		
+		this.volumen++;
 		}
 	
 	}
 	public void volumenDown() {
 		if(this.estado=true) {
-		if(this.volumen<=7 || this.volumen>=0) {
-		this.volumen--;
-	}
+		if(this.volumen+1>7 || this.volumen+1<0) {
+	return;
+	}	this.volumen--;
 		}
 }
 	public static void setNumTV (int nut) {
